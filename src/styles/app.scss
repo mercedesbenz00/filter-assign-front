@@ -1,0 +1,42 @@
+/*!
+ *
+ * Angle - Bootstrap Admin Template
+ *
+ * Version: 4.8
+ * Author: @themicon_co
+ * Website: http://themicon.co
+ * License: https://wrapbootstrap.com/help/licenses
+ *
+ */
+
+// Bootstrap
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+// Variables
+@import "app/common/variables";
+// Layout
+@import "app/layout/layout";
+@import "app/layout/layout-extra";
+@import "app/layout/layout-animation";
+@import "app/layout/top-navbar";
+@import "app/layout/sidebar";
+@import "app/layout/offsidebar";
+@import "app/layout/user-block";
+@import "app/layout/settings";
+// Common
+@import "app/common/page-loader";
+@import "app/common/typo";
+@import "app/common/bootstrap-reset";
+@import "app/common/bootstrap-custom";
+@import "app/common/button-extra";
+@import "app/common/placeholder";
+@import "app/common/cards";
+@import "app/common/circles";
+@import "app/common/dropdown-extra";
+@import "app/common/half-float";
+@import "app/common/animate";
+@import "app/common/slim-scroll";
+@import "app/common/inputs";
+@import "app/common/utils";
+@import "app/common/print";

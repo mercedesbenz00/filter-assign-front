@@ -1,0 +1,26 @@
+/* ========================================================================
+     Component: Page loader
+ ========================================================================== */
+
+.page-loader {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+@include media-breakpoint-up(md) {
+    .section-container .page-loader {
+        top: $navbar-hg;
+        left: $aside-wd;
+    }
+    .aside-collapsed .section-container .page-loader {
+        left: $aside-wd-collapsed;
+    }
+    .aside-collapsed-text .section-container .page-loader {
+        left: $aside-wd-collapsed-text;
+    }
+}
